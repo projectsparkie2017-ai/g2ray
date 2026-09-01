@@ -1,6 +1,6 @@
 {
   "log": {
-    "loglevel": "warning"
+    "loglevel": "info"
   },
   "inbounds": [
     {
@@ -20,7 +20,7 @@
         "network": "xhttp",
         "xhttpSettings": {
           "mode": "packet-up",
-          "path": "/"
+          "path": "/vpn"
         }
       }
     }
@@ -32,4 +32,4 @@
       "settings": {}
     }
   ]
-}
+} 
